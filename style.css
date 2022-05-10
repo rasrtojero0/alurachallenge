@@ -1,0 +1,203 @@
+body{
+    background-color: #E5E5E5;
+ 
+}
+
+.contenedor_principal{
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+}
+
+.logo{
+    position: absolute;
+    display: inline-block;
+    width: 120px;
+    height: 48px;
+    
+    left: 40px;
+    top: 40px;
+
+
+}
+
+.principal{
+    position: absolute;
+    background-color: #E5E5E5;
+    width: 1440px;
+    height: 1024px;
+}
+.uno{
+   
+    display: inline-block;
+    position: relative;
+    top: -643px;
+    
+}
+
+.texto_munneco{
+    border: none;
+    outline: none;
+    position: relative;
+    margin-top: 32px;
+    margin-left: 32px;
+    width: 336px;
+    height: 781px;
+    padding: 0px;
+    font-size: 24px;
+    line-height:36px;
+    resize: none;
+ 
+    
+}
+.div_munneco{
+  
+    position: absolute ;
+    left: 1000px;
+    top: 40px;
+    width: 400px;   
+    height: 944px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    box-shadow: 5px 5px 50px  ;
+}
+
+
+
+
+
+.ingrese_texto{
+    border-style: none;
+    background-color:#E5E5E5 ;
+    position: absolute;
+    display: inline-block;
+    top: 168px;
+    left: 240px;
+    width: 577px;
+    height: 480px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    outline: none;
+    color: #0A3871;
+    resize: none;
+}
+
+
+.ingrese_texto::placeholder{
+    color: #0A3871;
+}
+
+
+
+.div_munneco-texto{
+    margin-top: 32px;
+    margin-left: 32px;
+    width: 336px;
+ 
+
+
+    line-height: 28.8px;
+    height: 58px;
+    display: inline-block;
+    top: 579px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #343A40;
+    
+
+}
+ 
+.div_munneco-descripcion{
+    text-align: center;
+    width: 336px;
+    height: 48px;
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 32px;
+    font-family: Inter;
+    font-size: 16px;
+    color: #495057;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    
+} 
+.vector{
+    position: absolute;
+    top: 852px;
+    left: 240px;
+}
+.texto_vector{
+    position: absolute;
+    top:851px ;
+    left: 264px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #495057;
+    
+
+}
+.encriptar{
+    border-style: none;
+    position: absolute;
+    top: 885px;
+    left: 240px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 50px;
+}
+
+.desencriptar{
+    position: absolute;
+    top: 885px;
+    left: 592px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 25px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 50px;
+}
+
+.copiar{
+    position: relative;
+    top: 25px;
+    left: 32px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 25px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 50px;
+    opacity: 0;
+}
+
+
