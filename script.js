@@ -1,3 +1,4 @@
+
 //VARIABLES
 
 //Boton encriptar
@@ -57,6 +58,8 @@ function texto(){
     codificar()
     
     munnecotxt.value = codificado
+    document.querySelector("#munneco").style.opacity = "0"
+    document.querySelector("#texto1").style.opacity = "0"
     document.getElementById("invalido").style.color = "#495057"
     document.getElementById("invalido").style.fontSize = "12px"
     document.getElementById("imagen").style.opacity = "0";

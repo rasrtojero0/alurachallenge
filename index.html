@@ -2,40 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>Alura Challenge1</title>
+    <link rel="stylesheet" href="style2.css">
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador-ONE</title>
 </head>
 <body>
-    <div class="contenedor_principal">
-    <div class="principal">
-    <img class="logo" src="img/Logo.png"> 
-    <textarea placeholder="Ingrese el texto aquí" class="ingrese_texto" id="textarea" ></textarea> 
-    <img src="img/Vector.png" class="vector">
-    <p class="texto_vector" id="invalido">Solo letras minúsculas y sin acentos</p>
-    <input type="button" value="Encriptar" class="encriptar" id="encripta"> </li>
-    <input type="button" value="Desencriptar" class="desencriptar" id="desencripta"> </li>
-    
+    <header>
+        <img class="logo" src="img/Logo.png">
+    </header>
+    <main>
 
-    <div class="div_munneco">
+        <div>
+            <textarea placeholder="Ingrese el texto aquí" class="ingrese_texto" id="textarea" ></textarea> 
+            <img src="img/Vector.png" class="vector">
+            <p class="texto_vector" id="invalido">Solo letras minúsculas y sin acentos</p>
+            <div class="botones">
+                <input type="button" value="Encriptar" class="encriptar" id="encripta"> 
+                <input type="button" value="Desencriptar" class="desencriptar" id="desencripta">
+            </div>
+           
+        </div> 
+
+    </main>
+    <aside class="div_munneco">
+        <!-- <p class="descripcion" id="texto2">Ingrese el texto que desea encriptar o desencriptar.</p> -->
         <textarea class="texto_munneco" id="munneco_txt"></textarea>
-        <input type="button" value="Copiar" class="copiar" id="copiar">
-        <div id="imagen">
-        <ul class="uno">
-            <li><img src="img/Muñeco.png" class="div_munneco-img" id="munneco"></li>
-            <li><p class="div_munneco-texto" id="texto1"><strong>Ningún mensaje fue encontrado</strong></p></li>
-            <li><p class="div_munneco-descripcion" id="texto2">Ingrese el texto que desea encriptar o desencriptar.</p></li>
-            
-        </ul>
-         </div>  
-        
-    </div>
+     
+      <div class="uno">
+          <img src="img/Muñeco.png" class="munneco" id="munneco">
+          <p class="descripcion" id="texto1"><strong>Ningún mensaje fue encontrado</strong></p>
+          <input type="button" value="Copiar" class="copiar" id="copiar">
+      </div>
+
        
-    </div>
-    </div>
-<script src="script.js"></script>    
+    </aside>
+    <script src="script.js"></script>
 </body>
 </html>

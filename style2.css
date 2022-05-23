@@ -1,0 +1,165 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,215,90,1) 0%, rgba(0,212,255,1) 100%);
+    width: 930px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    /* border: 2px solid grey; */
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 90%;
+}
+
+main{
+
+   width: 60%;
+    /* border: 2px solid black; */
+}
+
+.ingrese_texto{
+    border-style: none;
+    outline-style: none;
+    background: none;
+}
+
+.botones{
+    margin-left: 40px;
+}
+
+
+.encriptar{
+        box-shadow: 0px 10px 14px -7px #276873;
+        background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+        background-color:#599bb3;
+        border-radius:8px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:20px;
+        font-weight:bold;
+        padding:13px 32px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #3d768a;
+       
+}
+.encriptar:hover {
+        background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+        background-color:#408c99;
+}
+.encriptar:active {
+        position:relative;
+        top:1px;
+}
+
+.desencriptar{
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    background-color:#599bb3;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:13px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+   
+}
+.desencriptar:hover {
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color:#408c99;
+}
+.desencriptar:active {
+    position:relative;
+    top:1px;
+}
+    
+
+.copiar{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;  
+    
+   
+}
+.copiar{
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    background-color:#599bb3;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:20px;
+    font-weight:bold;
+    padding:13px 32px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+       
+}
+.copiar:hover {
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color:#408c99;
+}
+/* .copiar:active {
+    position:relative;
+    top:1px;
+}
+     */
+aside{
+    position: relative;
+    width: 30%;
+    /* border: 2px solid black; */
+}
+
+.descripcion{
+    text-align: center;
+}
+
+.ingrese_texto{
+    display: block;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    resize: none;
+}
+.texto_munneco{
+    background: none;
+    resize: none;
+    outline-style: none;
+    border-style: none;
+}
+
+.vector{
+    display: inline-block
+}
+
+.texto_vector{
+    display: inline-block;
+}
+
+
+
+
+.cajaimg{
+    width:90% ;
+}
+.munneco{
+    width: 200px;
+    margin-left: 30px;
+
+}
+
+.texto_vector, .descripcion {
+    color: darkblue;
+    text-shadow: #ffffff 2px 2px 2px;
+}

@@ -3,11 +3,11 @@ body{
  
 }
 
-.contenedor_principal{
-    width: 1440px;
-    height: 1024px;
+/* .contenedor_principal{
+    width: 80%;
+    height: 80%;
     margin: 0 auto;
-}
+} */
 
 .logo{
     position: absolute;
@@ -21,12 +21,13 @@ body{
 
 }
 
-.principal{
+/* .principal{
     position: absolute;
     background-color: #E5E5E5;
-    width: 1440px;
-    height: 1024px;
-}
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+} */
 .uno{
    
     display: inline-block;
